@@ -1,0 +1,62 @@
+.home-container{
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.search-container{
+  margin-bottom: 3rem;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container form{
+  width:50%;
+  display: flex;
+}
+
+.search-container form input{
+  flex: 5;
+}
+.search-container form button{
+  flex: 1;
+  font-weight: bold;
+}
+
+.home-container .row .col .card{
+  min-height: 162px;
+}
+
+/* Add Items */
+.add-item-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-item-container .card{
+  width: 50%;
+  padding: 5rem;
+}
+
+.add-item-container .card textarea{
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+.add-item-container .card textarea:focus, .add-item-container .card textarea:active{
+  border: 1px solid #ced4da !important;
+}
+
+.btn-primary{
+  font-weight: 600 !important;
+}
